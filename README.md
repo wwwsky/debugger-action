@@ -1,3 +1,7 @@
+> ⚠ **The project has stopped maintenance**  
+> 👉 It is recommended to use a new solution in your project: [P3TERX/ssh2actions](https://github.com/P3TERX/ssh2actions)  
+> 👉 If you just want to connect to the Actions VM via SSH, move to [P3TERX/ActionsVM](https://github.com/P3TERX/ActionsVM)
+
 # Action Debugger
 
 Interactive debugger for GitHub Actions
@@ -7,7 +11,7 @@ Interactive debugger for GitHub Actions
 ```
 steps:
 - name: Setup Debug Session
-  uses: P3TERX/debugger-action@master
+  uses: P3TERX/debugger-action@main
 ```
 
 In the log for the action you will see:
